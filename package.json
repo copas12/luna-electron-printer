@@ -1,0 +1,39 @@
+{
+  "name": "luna-electron-printer",
+  "description": "Node.js printer bindings -  electron builds",
+  "version": "0.0.5",
+  "homepage": "https://github.com/copas12/luna-electron-printer",
+  "author": {
+    "name": "Urip Subekti",
+    "email": "urip.subekti12@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/copas12/luna-electron-printer.git"
+  },
+  "scripts": {
+    "install": "npm install"
+  },
+  "binary": {
+    "module_name": "node_printer",
+    "module_path": "./lib/electron-v4.0.3-{platform}-{arch}/",
+    "package_name": "electron-v4.0.3-{platform}-{arch}.tar.gz",
+    "host": "https://github.com/copas12/luna-electron-printer/releases/download/0.0.5"
+  },
+  "dependencies": {
+    "nan": "^2.1.0",
+    "node-pre-gyp": "^0.6.39"
+  },
+  "bundledDependencies": [
+    "node-pre-gyp"
+  ],
+  "devDependencies": {
+    "nodeunit": "*"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "main": "./index"
+}
