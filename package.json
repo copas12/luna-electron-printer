@@ -11,9 +11,6 @@
     "type": "git",
     "url": "https://github.com/copas12/luna-electron-printer.git"
   },
-  "scripts": {
-    "install": "npm install"
-  },
   "binary": {
     "module_name": "node_printer",
     "module_path": "./lib/electron-v4.0.3-{platform}-{arch}/",
